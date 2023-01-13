@@ -1,31 +1,33 @@
-# Introducción al análisis y visualización de datos con python
+# Introducción al análisis de datos con python
 ## Mariana Esther Martínez Sánchez
 
-Curso básico para análisis de tablas de datos usando python y pandas.
+Curso básico para análisis de conjuntos de datos usando python y pandas.
 
 Impartido: 
-* Pyladies-México 13 y 14 de febrero de 2020
+* CdMx 2023
 
 ## Requisitos:
-* Saber usar R, SAS, STATA o Excel avanzado.
-* Tener [anaconda](https://www.anaconda.com/distribution/) instalado.
+* Saber usar R, SAS, STATA o Excel intermedio.
+* Computadora con [anaconda](https://www.anaconda.com/distribution/).
 * Acceso a internet.
 
 ## Índice
 
-1. [Introducción a python](./CP-Introduccion.ipynb)
-    1. Instalación de conda
-    2. Jupyter notebooks
-    3. Introducción a python
+[ ] 1. [Introducción a python](./CP1-Introduccion.ipynb)
+    a) Instalación de anaconda
+    b) Jupyter notebooks
+    c) Introducción a python
+    d) Documentación de python
+    e) Stack overflow y otros recursos
 
-2. [Obtención de datos](./CP-ObtencionLimpieza.ipynb)
+[ ] 2. [Obtención de datos](./CP-ObtencionLimpieza.ipynb)
     1. Descargar datos abiertos
     2. ¿Qué es un dato?
     3. Cargar los datos en python
         * Ubicacion en la carpeta
         * Excel, csv, pickle
 
-3. [Limpieza de datos](./CP-ObtencionLimpieza.ipynb)
+[ ] 3. [Limpieza de datos](./CP-ObtencionLimpieza.ipynb)
     1. Pasos de un análisis de datos
     2. Exploración básica - pandas_profiling
     3. Operaciones básicas de pandas - slicing
@@ -41,15 +43,15 @@ Impartido:
         * Eliminar datos fuera de rango (map, replace)
         * Datos faltantes (fillna)
     5. Guardar datos
-        * Excel y cs
- v       * pickle
+        * Excel y csv
+        * pickle
 
-4. [Gráficación básica](./CP-AnalisisGraficas.ipynb)
+[ ] 4. [Gráficación básica](./CP-AnalisisGraficas.ipynb)
     1. Tipos de gráficas (lines, bars, scatter, hist)
     2. Elementos de una gráfica (title, axis, etc)
     3. matplotlib
 
-5. [Análisis de datos](./CP-AnalisisGraficas.ipynb)
+[ ] 5. [Análisis de datos](./CP-AnalisisGraficas.ipynb)
     1. Estadística básica (count, sum, mean, median, moda, std)
     2. Agrupamiento (groupby, filter, aggregate)
     3. Tablas pivote (pivot_table)
@@ -63,14 +65,16 @@ Impartido:
 
 ## Recursos útiles
 * Programación básica en python
-    * Think like a computer scientist https://greenteapress.com/wp/think-python/
     * Introducción a la programación en Python I https://www.coursera.org/learn/aprendiendo-programar-python
+    * Think like a computer scientist https://greenteapress.com/wp/think-python/
+    
 * Programación intermedia en python
     * Guia estilo https://pep8.org/
     * Docstrings numpy https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
     * The Hacker's Guide to Python, Julien Danjou
     * Computer Science Distilled, Wladston Ferreira Filho
     * Estructuras de datos https://classroom.udacity.com/courses/ud513
+
 * Visualización
     * Selección de colores http://colorbrewer2.org/
     * Fundamentals of Data Visualization https://serialmentor.com/dataviz/
@@ -83,5 +87,5 @@ Impartido:
 * Machine learning
     * Machine Learning with Python: A Practical Introduction https://www.edx.org/course/machine-learning-with-python-a-practical-introduct
 
-* <Aprendizaje 
+* Aprendizaje 
     * Aprendiendo a aprender https://www.coursera.org/learn/learning-how-to-learn
