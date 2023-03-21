@@ -2,7 +2,7 @@
 data_raw/*
 data_clean/*
 profiles/*
-extra/*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
