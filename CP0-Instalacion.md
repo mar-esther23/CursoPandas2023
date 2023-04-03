@@ -1,9 +1,9 @@
 # Análisis y visualización de datos con python
 # 0. Instalación e inicio con Anaconda
 
-* 0.a Instalación de anaconda
-* 0.b Entornos (environments)
-* 0.c Instalación de librerias
+    - a Instalación de anaconda
+    - b Entornos (environments)
+    - c Instalación de librerias
 
 ---
 
@@ -74,3 +74,15 @@ En ambos casos, es posible que sea necesario actualizar Anaconda o el entorno an
 
 
 
+## 0.d Sobre la documentación
+Muchas de las funciones que veremos en este tutorial tienen opciones o paramétros que pueden cambiar. Además, es muy común no saber el nombre exacto de la función aunque si tengamos una idea general de como debé de llamarse. O simplemente olvidar cual era el nombre de la función. 
+
+En ese caso la mejor idea es googlear "pandas"o "python" y el nombre de la función o descripción de que queremos hacer. Existen dos recursos particularmente útiles:
+
+* La documentación oficial de la biblioteca, en este caso la [documentación de pandas](https://pandas.pydata.org/pandas-docs/stable/).
+* [StackOverflow](stackoverflow.com/), donde generalmente la mejor respuesta tiene la mayor cantidad de votos.
+* [ChatGTP](https://chat.openai.com/chat) es capaz de resolver muchas preguntas sobre programación, pero es importante verificar que la respuesta funcione, ya que comete errores
+
+Si no puedes encontrar la respuesta recuerda [googlear antes de preguntar](https://xkcd.com/627/) y revisa [como hacer buenas preguntas en los foros ](https://stackoverflow.com/help/how-to-ask).
+
+Muchas veces las respuestas se encuentran en ingles. Los traductores automáticos pueden ayudarte a plantear y entender la respuesta. Sin embargo, recuerda que las lineas de código no debén de traducirse.
