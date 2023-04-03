@@ -1,9 +1,9 @@
 # Análisis y visualización de datos con python
 # 0. Instalación e inicio con Anaconda
 
-    - a Instalación de anaconda
-    - b Entornos (environments)
-    - c Instalación de librerias
+    - a) Instalación de anaconda
+    - b) Entornos (environments)
+    - c) Instalación de librerias
 
 ---
 

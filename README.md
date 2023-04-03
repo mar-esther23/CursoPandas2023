@@ -15,89 +15,89 @@ Curso básico para análisis de tablas de datos usando python y pandas.
 ## Índice
 
 0. [Instalación e inicio con Anaconda](./CP0-Instalacion.md)
-    - a Instalación de anaconda
-    - b Entornos (environments)
-    - c Instalación de librerias
-    - d Sobre la documentación
+    - a) Instalación de anaconda
+    - b) Entornos (environments)
+    - c) Instalación de librerias
+    - d) Sobre la documentación
 
 1. [Introducción a python](./CP1-Introduccion.ipynb)
-    - a Python y Jupyter Notebooks
-    - b Valores, variables y tipos
-    - c Operaciones y funciones
-    - d Comentarios y errores
+    - a) Python y Jupyter Notebooks
+    - b) Valores, variables y tipos
+    - c) Operaciones y funciones
+    - d) Comentarios y errores
 
 2. [Descarga y exploración de datos](./CP2-Exploracion.ipynb)
-    - a Estructura de un proyecto de datos
-    - b Obtención del conjunto de datos
-    - c Cargar los datos en python
-    - d Conjuntos de datos ordenados
-    - e Exploración básica con profiles
-    - f Opciones avanzadas de profiling
+    - a) Estructura de un proyecto de datos
+    - b) Obtención del conjunto de datos
+    - c) Cargar los datos en python
+    - d) Conjuntos de datos ordenados
+    - e) Exploración básica con profiles
+    - f) Opciones avanzadas de profiling
 
 3. [Indexación y selección de dataframes](./CP3-Seleccion.ipynb)
-    - a Estructura de una tabla 
-    - b Slicing
-    - c Únicos y conteo
-    - d Ordenar
-    - e Subsetting
-    - f Guardar datos
+    - a) Estructura de una tabla 
+    - b) Slicing
+    - c) Únicos y conteo
+    - d) Ordenar
+    - e) Subsetting
+    - f) Guardar datos
 
 4. [Limpieza de datos](./CP4-Limpieza.ipynb)
-    - a Tipos de datos
-    - b Eliminación de observaciones y variables
-    - c Valores faltantes
-    - d Limpieza de texto
-    - e Limpieza de categóricos
-    - f Limpieza de números
-    - g Limpieza de fechas
-    - h Ordenar y guardar datos
+    - a) Tipos de datos
+    - b) Eliminación de observaciones y variables
+    - c) Valores faltantes
+    - d) Limpieza de texto
+    - e) Limpieza de categóricos
+    - f) Limpieza de números
+    - g) Limpieza de fechas
+    - h) Ordenar y guardar datos
 
 5. [Graficación y visualización de datos](./CP5-Graficas.ipynb)
-    - a Pandas plot
-    - b Lineas
-    - c Scatterplot
-    - d Barras
-    - e Opciones y colores
-    - f Guardar figuras
-    - g Distribución
-    - h Boxplot
-    - i Histogramas
-    - j KDE
-    - k Gráfico múltiple 
-    - l Violinplot
-    - m Heatmaps y clustermaps
-    - n Otros recursos de visualización
+    - a) Pandas plot
+    - b) Lineas
+    - c) Scatterplot
+    - d) Barras
+    - e) Opciones y colores
+    - f) Guardar figuras
+    - g) Distribución
+    - h) Boxplot
+    - i) Histogramas
+    - j) KDE
+    - k) Gráfico múltiple 
+    - l) Violinplot
+    - m) Heatmaps y clustermaps
+    - n) Otros recursos de visualización
 
 6. [Estadística básica](./CP6-Estadistica.ipynb)
-    - a Frecuencia
-    - b Promedio, mediana y moda
-    - c Asimetría
-    - d Varianza y desviación estandar
-    - e Valores atípicos
-    - f Distribuciones estadísticas
+    - a) Frecuencia
+    - b) Promedio, mediana y moda
+    - c) Asimetría
+    - d) Varianza y desviación estandar
+    - e) Valores atípicos
+    - f) Distribuciones estadísticas
 
 7. [Data Wrangling](-/CP7-Wrangling.ipynb)
-    - a Tablas pivote: filas a columnas
-    - b Melt: columnas a filas
-    - c División-aplicación-combinación
-    - d Agrupar por características
-    - e Funciones de agregación
-    - f Unir tablas uno a uno
-    - g Unir tablas muchos a uno
+    - a) Tablas pivote: filas a columnas
+    - b) Melt: columnas a filas
+    - c) División-aplicación-combinación
+    - d) Agrupar por características
+    - e) Funciones de agregación
+    - f) Unir tablas uno a uno
+    - g) Unir tablas muchos a uno
 
-Extra A. [Estadística intermedia](./CPA-EstadísticaIntermedia.ipynb)
-    - a Conjunto de datos
-    - b Correlaciones
-    - c Selección univariada
-    - d Escala de los datos
-    - e PCA (Análisis de Componentes Principales)
-    - f Regresión logística
+8. [Estadística intermedia](./CP8-CorrelacionPCA.ipynb)
+    - a) Conjunto de datos
+    - b) Correlaciones
+    - c) Selección univariada
+    - d) Escala de los datos
+    - e) PCA (Análisis de Componentes Principales)
+    - f) Regresión logística
 
 
-Extra B. [Mapas con GeoPandas](./CPB_Mapas.ipynb)
-    - a Formatos de archivo geoespaciales
-    - b Información geoespacial 
-    - c Mapas
+9. [Mapas con GeoPandas](./CP9_Mapas.ipynb)
+    - a) Formatos de archivo geoespaciales
+    - b) Información geoespacial 
+    - c) Mapas
 
 
 
