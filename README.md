@@ -15,9 +15,9 @@ Curso básico para análisis de tablas de datos usando python y pandas.
 ## Índice
 
 0. [Instalación e inicio con Anaconda](./CP0-Instalacion.md)
-* 0.a Instalación de anaconda
-* 0.b Entornos (environments)
-* 0.c Instalación de librerias
+    - a Instalación de anaconda
+    - b Entornos (environments)
+    - c Instalación de librerias
 
 
 1. [Introducción a python](./CP1-Introduccion.ipynb)

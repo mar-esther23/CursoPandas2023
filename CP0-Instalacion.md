@@ -1,9 +1,9 @@
 # Análisis y visualización de datos con python
 # 0. Instalación e inicio con Anaconda
 
-* 0.1 Instalación de anaconda
-* 0.2 Entornos (environments)
-* 0.3 Instalación de librerias
+* 0.a Instalación de anaconda
+* 0.b Entornos (environments)
+* 0.c Instalación de librerias
 
 ---
 
@@ -11,7 +11,7 @@ Anaconda es una distribución de software libre y de código abierto para el man
 
 
 
-## 0.1 Instalación de anaconda
+## 0.a Instalación de anaconda
 
 Instalación con el instalador descargado:
 
@@ -29,7 +29,7 @@ Nota: Si tiene problemas durante la instalación, consulte la documentación ofi
 
 
 
-## 0.2 Entornos (environments)
+## 0.b Entornos (environments)
 
 Un entorno de Anaconda es un lugar separado en el computador que te permite tener diferentes versiones de paquetes de Python y usarlas de manera independiente. Esto es útil para evitar conflictos entre proyectos y asegurar que los resultados sean consistentes y reproducibles. Con entornos de Anaconda, puedes tener más control y flexibilidad sobre la configuración de tus proyectos de Python.
 
@@ -49,7 +49,7 @@ Generación de un entorno de Anaconda con el navegador:
 6. Verifique que el entorno está seleccionado en la sección "Environments" del navegador de Anaconda.
 
 
-## 0.3 Instalación de librerias
+## 0.c Instalación de librerias
 
 Un paquete o librería de Python es un conjunto de módulos o funciones pre-escritas que pueden ser usadas en un programa para realizar tareas específicas. Por ejemplo, la librería NumPy es útil para trabajar con arrays numéricos en Python, mientras que la librería Pandas es útil para manipular y analizar datos. Los paquetes y librerías son una parte fundamental de la comunidad de Python y permiten a los desarrolladores ahorrar tiempo y esfuerzo al reutilizar código existente.
 
