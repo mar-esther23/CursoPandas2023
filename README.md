@@ -76,7 +76,7 @@ Curso básico para análisis de tablas de datos usando python y pandas.
     - e) Valores atípicos
     - f) Distribuciones estadísticas
 
-7. [Data Wrangling](-/CP7-Wrangling.ipynb)
+7. [Data Wrangling](./CP7-Wrangling.ipynb)
     - a) Tablas pivote: filas a columnas
     - b) Melt: columnas a filas
     - c) División-aplicación-combinación
