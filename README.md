@@ -14,7 +14,11 @@ Curso básico para análisis de tablas de datos usando python y pandas.
 
 ## Índice
 
-0. [Instalación de anaconda](./CP0-Instalacion.md)
+0. [Instalación e inicio con Anaconda](./CP0-Instalacion.md)
+* 0.a Instalación de anaconda
+* 0.b Entornos (environments)
+* 0.c Instalación de librerias
+
 
 1. [Introducción a python](./CP1-Introduccion.ipynb)
     1. Instalación de conda
@@ -44,11 +48,9 @@ Curso básico para análisis de tablas de datos usando python y pandas.
     3. Tablas pivote (pivot_table)
     4. Respondiendo preguntas
 
-6. Extras
-    1. Seaborn (distplot, heatmap, multiples)
-    2. Estadística (corr, linear_regresion)
-    3. Mapas (geopandas)
-    4. Visualización de datos
+A.
+
+B. Geopandas
 
 ## Recursos útiles
 * Programación básica en python
@@ -66,6 +68,7 @@ Curso básico para análisis de tablas de datos usando python y pandas.
     * Selección de colores http://colorbrewer2.org/
     * Fundamentals of Data Visualization https://serialmentor.com/dataviz/
     * Visualización de datos y D3  https://classroom.udacity.com/courses/ud507
+    * How To Lie With Maps - Mark Monmonier 
 
 * Estadística
     * Estadistica para Dummiens, Deborah J Rumsey
@@ -73,6 +76,7 @@ Curso básico para análisis de tablas de datos usando python y pandas.
 
 * Machine learning
     * Machine Learning with Python: A Practical Introduction https://www.edx.org/course/machine-learning-with-python-a-practical-introduct
+    * Data Feminism, Catherine D'Ignazio y Lauren F. Klein https://data-feminism.mitpress.mit.edu/
 
 * Aprendizaje 
     * Aprendiendo a aprender https://www.coursera.org/learn/learning-how-to-learn
