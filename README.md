@@ -88,10 +88,9 @@ Curso básico para análisis de tablas de datos usando python y pandas.
 8. [Estadística intermedia](./CP8-CorrelacionPCA.ipynb)
     - a) Conjunto de datos
     - b) Correlaciones
-    - c) Selección univariada
-    - d) Escala de los datos
-    - e) PCA (Análisis de Componentes Principales)
-    - f) Regresión logística
+    - c) PCA (Análisis de Componentes Principales)
+    - d) Regresión logística
+    - e) Selección univariada
 
 
 9. [Mapas con GeoPandas](./CP9_Mapas.ipynb)
