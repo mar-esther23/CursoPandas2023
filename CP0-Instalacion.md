@@ -1,88 +1,70 @@
-# Análisis y visualización de datos con python
+# Análisis y visualización de datos con Python
 # 0. Instalación e inicio con Anaconda
 
-    - a) Instalación de anaconda
-    - b) Entornos (environments)
-    - c) Instalación de librerias
+## 0.a Instalación de Anaconda
 
----
+Anaconda es una distribución de software libre y de código abierto diseñada para gestionar paquetes y dependencias en Python. Contiene más de 1,500 paquetes relacionados con ciencia de datos, ingeniería y análisis, siendo ampliamente utilizado en la comunidad de ciencia de datos para administrar y compartir entornos de desarrollo y proyectos. Además, proporciona herramientas para la gestión eficiente de entornos virtuales, permitiendo a los usuarios trabajar con diferentes versiones de paquetes y dependencias sin afectar otros proyectos.
 
-Anaconda es una distribución de software libre y de código abierto para el manejo de paquetes y dependencias en Python. Incluye más de 1,500 paquetes de ciencia de datos, ingeniería y análisis y se utiliza ampliamente en la comunidad de ciencia de datos para administrar y compartir entornos de desarrollo y proyectos. Anaconda también incluye herramientas para el manejo de entornos virtuales, lo que permite a los usuarios trabajar con diferentes versiones de paquetes y dependencias de manera eficiente y sin afectar otros proyectos.
+### Pasos para la instalación de Anaconda:
 
+#### Instalación con el instalador descargado:
 
+1. Descargar el instalador de Anaconda desde el sitio web oficial (https://www.anaconda.com/products/distribution), seleccionando la versión compatible con su sistema operativo.
+2. Ejecutar el instalador descargado y seguir las instrucciones en pantalla.
+3. Verificar la instalación con el comando `conda list` en una terminal. La presencia de una lista de paquetes indicará una instalación exitosa.
+4. Mantener actualizado Anaconda usando `conda update conda` en la terminal.
 
-## 0.a Instalación de anaconda
+#### Instalación con el navegador de Anaconda:
 
-Instalación con el instalador descargado:
+1. Descargar e instalar el navegador de Anaconda desde el sitio web oficial (https://www.anaconda.com/products/navigator).
+2. Verificar la instalación abriendo el navegador de Anaconda y asegurándose de que se haya iniciado correctamente.
+3. Mantener actualizado Anaconda a través del navegador utilizando la opción de actualización.
 
-1. Descargar el instalador de Anaconda desde el sitio web oficial de Anaconda (https://www.anaconda.com/products/distribution). Asegúrese de descargar la última versión estable y compatible con su sistema operativo (Windows, macOS o Linux).
-2. Ejecutar el instalador descargado y seguir las instrucciones en pantalla para instalar Anaconda.
-3. Verificar la instalación de Anaconda. Para hacer esto, abra una terminal o línea de comandos y escriba conda list. Si la instalación se ha realizado correctamente, verá una lista de paquetes que se incluyen con Anaconda.
-4. Actualizar Anaconda. Para hacer esto, abra una terminal o línea de comandos y escriba conda update conda. Esto actualizará Anaconda a la última versión disponible.
-
-Instalación con el navegador de Anaconda:
-1. Descargar e instalar el navegador de Anaconda desde el sitio web oficial de Anaconda (https://www.anaconda.com/products/navigator).
-2. Verificar la instalación de Anaconda. Para hacer esto, abra el navegador de Anaconda y verifique si se ha iniciado correctamente.
-3. Actualizar Anaconda. Para hacer esto, abra el navegador de Anaconda y busque la opción de actualización. Esto actualizará Anaconda a la última versión disponible.
-
-Nota: Si tiene problemas durante la instalación, consulte la documentación oficial de Anaconda para obtener ayuda adicional.
-
-
+Nota: En caso de problemas durante la instalación, consultar la documentación oficial de Anaconda para obtener asistencia adicional.
 
 ## 0.b Entornos (environments)
 
-Un entorno de Anaconda es un lugar separado en el computador que te permite tener diferentes versiones de paquetes de Python y usarlas de manera independiente. Esto es útil para evitar conflictos entre proyectos y asegurar que los resultados sean consistentes y reproducibles. Con entornos de Anaconda, puedes tener más control y flexibilidad sobre la configuración de tus proyectos de Python.
+Un entorno de Anaconda proporciona un espacio separado en el sistema que permite gestionar diferentes versiones de paquetes de Python de forma independiente. Esto evita conflictos entre proyectos, garantizando resultados consistentes y reproducibles.
 
-Generación de un entorno de Anaconda en terminal:
-1. Abra una terminal o línea de comandos.
-2. Escriba conda create --name nombre_del_entorno para crear un nuevo entorno. Reemplace nombre_del_entorno con el nombre que desea darle al entorno.
-3. Seleccione y cuando se le solicite confirmación para crear el entorno.
-4. Escriba conda activate nombre_del_entorno para activar el entorno recién creado. Reemplace nombre_del_entorno con el nombre que le dio al entorno.
-5. Verifique que el entorno está activo escribiendo conda info en la terminal. El nombre del entorno activo se mostrará en la línea "active environment".
+### Creación de un entorno de Anaconda:
 
-Generación de un entorno de Anaconda con el navegador:
-1. Abra el navegador de Anaconda.
-2. Haga clic en la opción "Environments" en la barra de navegación de la izquierda.
-3. Haga clic en el botón "Create" en la parte superior derecha de la pantalla.
-4. Escriba un nombre para el entorno en el campo "Name" y seleccione una versión de Python en el campo "Python".
-5. Haga clic en el botón "Create" para crear el entorno.
-6. Verifique que el entorno está seleccionado en la sección "Environments" del navegador de Anaconda.
+#### Desde la terminal:
 
+1. Abrir una terminal o línea de comandos.
+2. Utilizar el comando `conda create --name nombre_del_entorno` para crear un nuevo entorno, sustituyendo "nombre_del_entorno" por el nombre deseado.
+3. Confirmar la creación cuando se solicite.
+4. Activar el entorno con `conda activate nombre_del_entorno`.
+5. Verificar la activación con `conda info` en la terminal.
 
-## 0.c Instalación de librerias
+#### Con el navegador de Anaconda:
 
-Un paquete o librería de Python es un conjunto de módulos o funciones pre-escritas que pueden ser usadas en un programa para realizar tareas específicas. Por ejemplo, la librería NumPy es útil para trabajar con arrays numéricos en Python, mientras que la librería Pandas es útil para manipular y analizar datos. Los paquetes y librerías son una parte fundamental de la comunidad de Python y permiten a los desarrolladores ahorrar tiempo y esfuerzo al reutilizar código existente.
+1. Abrir el navegador de Anaconda.
+2. Hacer clic en "Environments" en la barra lateral.
+3. Seleccionar "Create" y proporcionar nombre y versión de Python para el nuevo entorno.
+4. Confirmar la creación y verificar la selección en "Environments".
 
-Instalación a través de la terminal:
+## 0.c Instalación de Librerías
 
-1. Abre la terminal o línea de comandos.
-2. Escribe el comando "conda install" seguido del nombre del paquete que deseas instalar. Por ejemplo, para instalar la librería NumPy, escribe "conda install numpy".
-3. Presiona Enter.
-4. Sigue las instrucciones en la terminal para completar la instalación.
+Las librerías de Python son conjuntos de módulos preescritos que facilitan tareas específicas. La instalación de librerías se puede realizar tanto desde la terminal como desde el navegador de Anaconda.
 
-Instalación a través del navegador Anaconda Navigator:
+Para este curso se recomiendan inicialmente las librerias: `pandas openpyxl ydata_profiling unidecode numpy matplotlib seaborn`.
 
-1. Abre Anaconda Navigator.
-2. Haz clic en "Environments" en la barra lateral.
-3. Selecciona el entorno en el que deseas instalar el paquete.
-4. Haz clic en el botón "Not Installed" en la parte superior de la pantalla.
-5. Busca el paquete que deseas instalar y haz clic en él.
-6. Haz clic en el botón "Apply" para instalar el paquete.
-7. Sigue las instrucciones en la pantalla para completar la instalación.
+### Instalación desde la terminal:
 
-En ambos casos, es posible que sea necesario actualizar Anaconda o el entorno antes de poder instalar un paquete nuevo.
+1. Abrir la terminal o línea de comandos.
+2. Utilizar el comando `conda install nombre_de_libreria` para instalar la librería deseada.
+3. Seguir las instrucciones en pantalla para completar la instalación.
 
+### Instalación desde el navegador Anaconda Navigator:
 
+1. Abrir Anaconda Navigator.
+2. Navegar a "Environments" en la barra lateral.
+3. Seleccionar el entorno deseado.
+4. Hacer clic en "Not Installed" y buscar la librería.
+5. Aplicar la instalación y seguir las instrucciones en pantalla.
 
-## 0.d Sobre la documentación
-Muchas de las funciones que veremos en este tutorial tienen opciones o paramétros que pueden cambiar. Además, es muy común no saber el nombre exacto de la función aunque si tengamos una idea general de como debé de llamarse. O simplemente olvidar cual era el nombre de la función. 
+En ambos casos, es posible que sea necesario actualizar Anaconda o el entorno antes de instalar nuevas librerías.
 
-En ese caso la mejor idea es googlear "pandas"o "python" y el nombre de la función o descripción de que queremos hacer. Existen dos recursos particularmente útiles:
+## 0.d Sobre la Documentación
 
-* La documentación oficial de la biblioteca, en este caso la [documentación de pandas](https://pandas.pydata.org/pandas-docs/stable/).
-* [StackOverflow](stackoverflow.com/), donde generalmente la mejor respuesta tiene la mayor cantidad de votos.
-* [ChatGTP](https://chat.openai.com/chat) es capaz de resolver muchas preguntas sobre programación, pero es importante verificar que la respuesta funcione, ya que comete errores
-
-Si no puedes encontrar la respuesta recuerda [googlear antes de preguntar](https://xkcd.com/627/) y revisa [como hacer buenas preguntas en los foros ](https://stackoverflow.com/help/how-to-ask).
-
-Muchas veces las respuestas se encuentran en ingles. Los traductores automáticos pueden ayudarte a plantear y entender la respuesta. Sin embargo, recuerda que las lineas de código no debén de traducirse.
+Al trabajar con funciones específicas en Python, es común encontrarse con opciones y parámetros que pueden variar. En caso de dudas, se recomienda buscar información en recursos como la [documentación oficial de pandas](https://pandas.pydata.org/pandas-docs/stable/), [StackOverflow](https://stackoverflow.com/), o utilizar [ChatGPT](https://chat.openai.com/chat). Recuerde googlear antes de preguntar y verificar la validez de las respuestas, especialmente en el caso de líneas de código, evitando traducirlas automáticamente.
